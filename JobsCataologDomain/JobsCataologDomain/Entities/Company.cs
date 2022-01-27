@@ -10,5 +10,6 @@ namespace JobsCatalog.Domain.Entities
         public string Name { get; set; }
         public string ShortDescription { get; set; }
         public string CompanyLogo { get; set; }
+        public JobOffer JobOffer { get; set; }
     }
 }
