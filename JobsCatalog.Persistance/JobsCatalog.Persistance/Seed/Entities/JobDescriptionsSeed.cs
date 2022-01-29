@@ -10,6 +10,8 @@ namespace JobsCatalog.Persistance.Seed.Entities
     {
         public static void Seed(this ModelBuilder modelBuilder)
         {
+            var admin = "Admin";
+            var date = DateTimeOffset.UtcNow;
             var about = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
                     "Integer id viverra erat. Nulla euismod laoreet metus vitae mollis." +
                     " Orci varius natoque penatibus et magnis dis parturient montes, " +
@@ -51,7 +53,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc2 = new JobDescription()
@@ -60,7 +67,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc3 = new JobDescription()
@@ -69,7 +81,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc4 = new JobDescription()
@@ -78,7 +95,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc5 = new JobDescription()
@@ -87,7 +109,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc6 = new JobDescription()
@@ -96,7 +123,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc7 = new JobDescription()
@@ -105,7 +137,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc8 = new JobDescription()
@@ -114,7 +151,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc9 = new JobDescription()
@@ -123,7 +165,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc10 = new JobDescription()
@@ -132,7 +179,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc11 = new JobDescription()
@@ -141,7 +193,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc12 = new JobDescription()
@@ -150,7 +207,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc13 = new JobDescription()
@@ -159,7 +221,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc14 = new JobDescription()
@@ -168,7 +235,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
 
             var jobOfferDesc15 = new JobDescription()
@@ -177,7 +249,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 About = about,
                 Responsibilities = responsibilities,
                 Expectation = expectation,
-                Offer = offer
+                Offer = offer,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
+                StatusId = 1
             };
         }
     }

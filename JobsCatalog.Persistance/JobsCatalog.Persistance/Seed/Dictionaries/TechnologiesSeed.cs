@@ -64,7 +64,7 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
             };
             var technology11 = new Technology()
             {
-                Id = 10,
+                Id = 11,
                 Name = "Spring"
             };
             var technology12 = new Technology()
@@ -103,6 +103,12 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
             {
                 Id = 18,
                 Name = "Django"
+            };
+
+            var technology19 = new Technology()
+            {
+                Id = 19,
+                Name = "C++ 17"
             };
         }
     }

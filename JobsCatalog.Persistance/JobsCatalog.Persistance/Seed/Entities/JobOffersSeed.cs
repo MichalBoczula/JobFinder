@@ -10,6 +10,8 @@ namespace JobsCatalog.Persistance.Seed.Entities
     {
         public static void Seed(this ModelBuilder modelBuilder)
         {
+            var admin = "Admin";
+            var date = DateTimeOffset.UtcNow;
             var jobSoftawareSolution1 = new JobOffer()
             {
                 Id = 1,
@@ -21,6 +23,10 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 1,
                 JobDescriptionId = 1,
                 ProgrammingLanguageId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
                 StatusId = 1
             };
 
@@ -35,7 +41,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 3,
                 ProgrammingLanguageId = 1,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var jobSoftawareSolution3 = new JobOffer()
@@ -49,7 +59,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 3,
                 JobDescriptionId = 3,
                 ProgrammingLanguageId = 1,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
 
@@ -64,7 +78,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 4,
                 ProgrammingLanguageId = 2,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var swissUnionBank2 = new JobOffer()
@@ -78,7 +96,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 3,
                 JobDescriptionId = 5,
                 ProgrammingLanguageId = 2,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var swissUnionBank3 = new JobOffer()
@@ -92,7 +114,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 4,
                 JobDescriptionId = 6,
                 ProgrammingLanguageId = 2,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var creativity1 = new JobOffer()
@@ -106,7 +132,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 7,
                 ProgrammingLanguageId = 1,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var creativity2 = new JobOffer()
@@ -120,7 +150,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 8,
                 ProgrammingLanguageId = 3,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var creativity3 = new JobOffer()
@@ -134,7 +168,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 4,
                 JobDescriptionId = 9,
                 ProgrammingLanguageId = 5,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var itOpportunity1 = new JobOffer()
@@ -148,7 +186,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 1,
                 JobDescriptionId = 10,
                 ProgrammingLanguageId = 4,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var itOpportunity2 = new JobOffer()
@@ -162,7 +204,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 3,
                 JobDescriptionId = 11,
                 ProgrammingLanguageId = 4,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var itOpportunity3 = new JobOffer()
@@ -176,9 +222,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 4,
                 JobDescriptionId = 12,
                 ProgrammingLanguageId = 2,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
-
 
             var softMatter1 = new JobOffer()
             {
@@ -191,7 +240,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 4,
                 JobDescriptionId = 13,
                 ProgrammingLanguageId = 1,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var softMatter2 = new JobOffer()
@@ -205,7 +258,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 14,
                 ProgrammingLanguageId = 3,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
 
             var softMatter3 = new JobOffer()
@@ -219,7 +276,11 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ExperienceLevelId = 2,
                 JobDescriptionId = 15,
                 ProgrammingLanguageId = 4,
-                StatusId = 1
+                StatusId = 1,
+                CreatedBy = admin,
+                Created = date,
+                ModifiedBy = admin,
+                Modified = date,
             };
         }
     }
