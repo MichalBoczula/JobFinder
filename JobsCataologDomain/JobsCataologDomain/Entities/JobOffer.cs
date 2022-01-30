@@ -19,7 +19,6 @@ namespace JobsCatalog.Domain.Entities
         public Company Company { get; set; }
         public int ProgrammingLanguageId { get; set; }
         public ProgrammingLanguage ProgrammingLanguage { get; set; }
-        public int JobDescriptionId { get; set; }
         public JobDescription JobDescription { get; set; }
         public ICollection<JobOfferTechnology> JobOfferTechnology { get; set; }
     }

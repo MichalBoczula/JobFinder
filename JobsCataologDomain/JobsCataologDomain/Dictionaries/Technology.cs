@@ -10,7 +10,6 @@ namespace JobsCatalog.Domain.Dictionaries
 {
     public class Technology
     {
-        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<JobOffer> JobOffers { get; set; }

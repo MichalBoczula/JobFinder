@@ -7,8 +7,6 @@ namespace JobsCatalog.Domain.Common
 {
     public class AuditableEntity
     {
-
-        [Key]
         public int Id { get; set; }
         public string CreatedBy { get; set; }
         public DateTimeOffset Created { get; set; }

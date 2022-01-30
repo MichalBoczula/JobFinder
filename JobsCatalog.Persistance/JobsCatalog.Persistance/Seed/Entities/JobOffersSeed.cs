@@ -21,7 +21,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Wroclaw",
                 CompanyId = 1,
                 ExperienceLevelId = 1,
-                JobDescriptionId = 1,
                 ProgrammingLanguageId = 1,
                 CreatedBy = admin,
                 Created = date,
@@ -37,9 +36,8 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 SalaryMin = 10000,
                 SalaryMax = 15000,
                 City = "Wroclaw",
-                CompanyId = 1,
+                CompanyId = 2,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 3,
                 ProgrammingLanguageId = 1,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -55,9 +53,8 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 SalaryMin = 15000,
                 SalaryMax = 20000,
                 City = "Wroclaw",
-                CompanyId = 1,
+                CompanyId = 3,
                 ExperienceLevelId = 3,
-                JobDescriptionId = 3,
                 ProgrammingLanguageId = 1,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -65,7 +62,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ModifiedBy = admin,
                 Modified = date,
             };
-
+            modelBuilder.Entity<JobOffer>()
+               .HasData(jobSoftawareSolution1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(jobSoftawareSolution2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(jobSoftawareSolution3);
 
             var swissUnionBank1 = new JobOffer()
             {
@@ -76,7 +78,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Warsaw",
                 CompanyId = 2,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 4,
                 ProgrammingLanguageId = 2,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -94,7 +95,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Warsaw",
                 CompanyId = 2,
                 ExperienceLevelId = 3,
-                JobDescriptionId = 5,
                 ProgrammingLanguageId = 2,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -112,7 +112,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Warsaw",
                 CompanyId = 2,
                 ExperienceLevelId = 4,
-                JobDescriptionId = 6,
                 ProgrammingLanguageId = 2,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -120,6 +119,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ModifiedBy = admin,
                 Modified = date,
             };
+            modelBuilder.Entity<JobOffer>()
+               .HasData(swissUnionBank1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(swissUnionBank2);
+            modelBuilder.Entity<JobOffer>()
+               .HasData(swissUnionBank3);
 
             var creativity1 = new JobOffer()
             {
@@ -130,7 +135,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Remote",
                 CompanyId = 3,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 7,
                 ProgrammingLanguageId = 1,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -148,7 +152,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Poznan",
                 CompanyId = 3,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 8,
                 ProgrammingLanguageId = 3,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -166,7 +169,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Remote",
                 CompanyId = 4,
                 ExperienceLevelId = 4,
-                JobDescriptionId = 9,
                 ProgrammingLanguageId = 5,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -174,6 +176,12 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ModifiedBy = admin,
                 Modified = date,
             };
+            modelBuilder.Entity<JobOffer>()
+              .HasData(creativity1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(creativity2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(creativity3);
 
             var itOpportunity1 = new JobOffer()
             {
@@ -184,7 +192,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Poznan",
                 CompanyId = 4,
                 ExperienceLevelId = 1,
-                JobDescriptionId = 10,
                 ProgrammingLanguageId = 4,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -202,7 +209,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Gdansk",
                 CompanyId = 4,
                 ExperienceLevelId = 3,
-                JobDescriptionId = 11,
                 ProgrammingLanguageId = 4,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -220,7 +226,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Katowice",
                 CompanyId = 4,
                 ExperienceLevelId = 4,
-                JobDescriptionId = 12,
                 ProgrammingLanguageId = 2,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -228,6 +233,13 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ModifiedBy = admin,
                 Modified = date,
             };
+
+            modelBuilder.Entity<JobOffer>()
+              .HasData(itOpportunity1);
+            modelBuilder.Entity<JobOffer>()
+               .HasData(itOpportunity2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(itOpportunity3);
 
             var softMatter1 = new JobOffer()
             {
@@ -238,7 +250,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Crakow",
                 CompanyId = 5,
                 ExperienceLevelId = 4,
-                JobDescriptionId = 13,
                 ProgrammingLanguageId = 1,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -256,7 +267,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Remote",
                 CompanyId = 5,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 14,
                 ProgrammingLanguageId = 3,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -274,7 +284,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 City = "Crakow",
                 CompanyId = 5,
                 ExperienceLevelId = 2,
-                JobDescriptionId = 15,
                 ProgrammingLanguageId = 4,
                 StatusId = 1,
                 CreatedBy = admin,
@@ -283,30 +292,6 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 Modified = date,
             };
 
-            modelBuilder.Entity<JobOffer>()
-               .HasData(jobSoftawareSolution1);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(jobSoftawareSolution2);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(jobSoftawareSolution3);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(swissUnionBank1);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(swissUnionBank2);
-            modelBuilder.Entity<JobOffer>()
-               .HasData(swissUnionBank3);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(creativity1);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(creativity2);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(creativity3);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(itOpportunity1);
-            modelBuilder.Entity<JobOffer>()
-               .HasData(itOpportunity2);
-            modelBuilder.Entity<JobOffer>()
-                .HasData(itOpportunity3);
             modelBuilder.Entity<JobOffer>()
                 .HasData(softMatter1);
             modelBuilder.Entity<JobOffer>()

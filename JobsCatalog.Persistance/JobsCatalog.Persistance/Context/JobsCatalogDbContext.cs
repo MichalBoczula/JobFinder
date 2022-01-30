@@ -39,7 +39,7 @@ namespace JobsCatalog.Persistance.Context
             //modelBuilder.CreateTechnologiesSeed();
             //modelBuilder.CreateCompaniesSeed();
             //modelBuilder.CreateJobDescriptionsSeed();
-            //modelBuilder.CreateJobOffersSeed();
+            modelBuilder.CreateJobOffersSeed();
             //modelBuilder.CreateJobOfferTechnologySeed();
         }
 
