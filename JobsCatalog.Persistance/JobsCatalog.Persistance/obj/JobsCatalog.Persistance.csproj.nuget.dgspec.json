@@ -31,7 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCataologDomain\\JobsCataologDomain\\JobsCatalog.Domain.csproj": {
+                "projectPath": "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCataologDomain\\JobsCataologDomain\\JobsCatalog.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

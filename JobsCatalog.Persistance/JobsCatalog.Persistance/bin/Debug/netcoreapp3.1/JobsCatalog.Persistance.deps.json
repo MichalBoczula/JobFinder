@@ -1576,6 +1576,7 @@
       },
       "JobsCatalog.Application/1.0.0": {
         "dependencies": {
+          "JobsCatalog.Domain": "1.0.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.13"
