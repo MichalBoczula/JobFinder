@@ -1,4 +1,5 @@
-﻿using JobsCatalog.Domain.Common;
+﻿using JobsCatalog.Application.Contracts.Persistance;
+using JobsCatalog.Domain.Common;
 using JobsCatalog.Domain.Dictionaries;
 using JobsCatalog.Domain.Entities;
 using JobsCatalog.Domain.Helper;
@@ -16,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace JobsCatalog.Persistance.Context
 {
-    public class JobsCatalogDbContext : DbContext
+    public class JobsCatalogDbContext : DbContext, IJobsCatalogDbContext
     {
         public DbSet<ExperienceLevel> ExperienceLeves { get; set; }
         public DbSet<ProgrammingLanguage> ProgrammingLanguages { get; set; }

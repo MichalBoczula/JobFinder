@@ -11,6 +11,10 @@
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\JobsCatalog.Persistance\JobsCatalog.Persistance\JobsCatalog.Persistance.csproj" />
+  </ItemGroup>
 
 
 </Project>
