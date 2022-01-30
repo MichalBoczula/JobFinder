@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Entities
 {
     public static class JobDescriptionsSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateJobDescriptionsSeed(this ModelBuilder modelBuilder)
         {
             var admin = "Admin";
             var date = DateTimeOffset.UtcNow;
@@ -256,6 +256,37 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 Modified = date,
                 StatusId = 1
             };
+
+            modelBuilder.Entity<JobDescription>()
+               .HasData(jobOfferDesc1);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc2);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc3);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc4);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc5);
+            modelBuilder.Entity<JobDescription>()
+               .HasData(jobOfferDesc6);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc7);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc8);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc9);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc10);
+            modelBuilder.Entity<JobDescription>()
+               .HasData(jobOfferDesc11);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc12);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc13);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc14);
+            modelBuilder.Entity<JobDescription>()
+                .HasData(jobOfferDesc15);
         }
     }
 }

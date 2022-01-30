@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
-    <Folder Include="Context\" />
     <Folder Include="DependencyInjection\" />
   </ItemGroup>
 

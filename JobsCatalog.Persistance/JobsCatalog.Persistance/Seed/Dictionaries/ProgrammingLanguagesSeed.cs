@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
 {
     public static class ProgrammingLanguagesSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateProgrammingLanguagesSeed(this ModelBuilder modelBuilder)
         {
             var cSharp = new ProgrammingLanguage()
             {
@@ -44,6 +44,17 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
                 Name = "C++",
                 Image = "CPlusPlus"
             };
+
+            modelBuilder.Entity<ProgrammingLanguage>()
+                .HasData(cSharp);
+            modelBuilder.Entity<ProgrammingLanguage>()
+                .HasData(java);
+            modelBuilder.Entity<ProgrammingLanguage>()
+                .HasData(python);
+            modelBuilder.Entity<ProgrammingLanguage>()
+                .HasData(js);
+            modelBuilder.Entity<ProgrammingLanguage>()
+                .HasData(cPlusPlus);
         }
     }
 }

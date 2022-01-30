@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Helper
 {
     public static class JobOfferTechnologySeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateJobOfferTechnologySeed(this ModelBuilder modelBuilder)
         {
             var jobSoftawareSolution11 = new JobOfferTechnology()
             {
@@ -414,6 +414,177 @@ namespace JobsCatalog.Persistance.Seed.Helper
                 JobOfferId = 15,
                 TechnologyId = 9
             };
+
+            modelBuilder.Entity<JobOfferTechnology>()
+               .HasData(jobSoftawareSolution11);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution12);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution13);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution21);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution22);
+            modelBuilder.Entity<JobOfferTechnology>()
+               .HasData(jobSoftawareSolution23);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution24);
+            modelBuilder.Entity<JobOfferTechnology>()
+               .HasData(jobSoftawareSolution25);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution31);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution32);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution33);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution34);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution35);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution41);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution42);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution43);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution44);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution45);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution51);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution52);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution53);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution54);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution55);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution61);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution62);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution63);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution64);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution65);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution66);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution67);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution71);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution72);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution73);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution74);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution75);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution76);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution77);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution81);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution82);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution83);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution84);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution85);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution91);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution101);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution102);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution103);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution104);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution111);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution112);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution113);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution114);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution115);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution116);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution117);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution121);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution122);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution123);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution124);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution125);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution126);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution127);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution128);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution131);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution132);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution133);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution134);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution135);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution136);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution137);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution141);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution142);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution143);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution144);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution145);
+
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution151);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution152);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution153);
+            modelBuilder.Entity<JobOfferTechnology>()
+                .HasData(jobSoftawareSolution154);
         }
     }
 }

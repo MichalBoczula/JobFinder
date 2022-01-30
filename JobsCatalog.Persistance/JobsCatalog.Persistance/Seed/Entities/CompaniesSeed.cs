@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Entities
 {
     public static class CompaniesSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateCompaniesSeed(this ModelBuilder modelBuilder)
         {
             var admin = "Admin";
             var date = DateTimeOffset.UtcNow;
@@ -96,6 +96,17 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 Modified = date,
                 StatusId = 1
             };
+
+            modelBuilder.Entity<Company>()
+               .HasData(softawareSolution);
+            modelBuilder.Entity<Company>()
+                .HasData(swissUnionBank);
+            modelBuilder.Entity<Company>()
+                .HasData(creativity);
+            modelBuilder.Entity<Company>()
+                .HasData(itOpportunity);
+            modelBuilder.Entity<Company>()
+                .HasData(softMatter);
         }
     }
 }

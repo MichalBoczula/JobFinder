@@ -15,3 +15,4 @@ namespace JobsCatalog.Domain.Helper
         public Technology Technology { get; set; }
     }
 }
+ 
