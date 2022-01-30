@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Entities
 {
     public static class JobOffersSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateJobOffersSeed(this ModelBuilder modelBuilder)
         {
             var admin = "Admin";
             var date = DateTimeOffset.UtcNow;
@@ -282,6 +282,37 @@ namespace JobsCatalog.Persistance.Seed.Entities
                 ModifiedBy = admin,
                 Modified = date,
             };
+
+            modelBuilder.Entity<JobOffer>()
+               .HasData(jobSoftawareSolution1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(jobSoftawareSolution2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(jobSoftawareSolution3);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(swissUnionBank1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(swissUnionBank2);
+            modelBuilder.Entity<JobOffer>()
+               .HasData(swissUnionBank3);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(creativity1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(creativity2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(creativity3);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(itOpportunity1);
+            modelBuilder.Entity<JobOffer>()
+               .HasData(itOpportunity2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(itOpportunity3);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(softMatter1);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(softMatter2);
+            modelBuilder.Entity<JobOffer>()
+                .HasData(softMatter3);
         }
     }
 }

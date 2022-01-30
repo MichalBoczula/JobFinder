@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
 {
     public static class ExperienceLevelsSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateExperienceLevelsSeed(this ModelBuilder modelBuilder)
         {
             var junior = new ExperienceLevel()
             {
@@ -33,6 +33,15 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
                 Id = 4,
                 Name = "Expert"
             };
+
+            modelBuilder.Entity<ExperienceLevel>()
+                .HasData(junior);
+            modelBuilder.Entity<ExperienceLevel>()
+                .HasData(mid);
+            modelBuilder.Entity<ExperienceLevel>()
+                .HasData(senior);
+            modelBuilder.Entity<ExperienceLevel>()
+                .HasData(expert);
         }
     }
 }

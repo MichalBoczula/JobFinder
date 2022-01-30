@@ -8,7 +8,7 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
 {
     public static class TechnologiesSeed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void CreateTechnologiesSeed(this ModelBuilder modelBuilder)
         {
             var technology1 = new Technology()
             {
@@ -110,6 +110,45 @@ namespace JobsCatalog.Persistance.Seed.Dictionaries
                 Id = 19,
                 Name = "C++ 17"
             };
+
+            modelBuilder.Entity<Technology>()
+                .HasData(technology1);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology2);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology3);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology4);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology5);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology6);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology7);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology8);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology9);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology10);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology11);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology12);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology13);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology14);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology15);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology16);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology17);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology18);
+            modelBuilder.Entity<Technology>()
+                .HasData(technology19);
         }
     }
 }
