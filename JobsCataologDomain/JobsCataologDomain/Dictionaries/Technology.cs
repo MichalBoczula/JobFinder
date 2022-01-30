@@ -12,7 +12,6 @@ namespace JobsCatalog.Domain.Dictionaries
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<JobOffer> JobOffers { get; set; }
         public ICollection<JobOfferTechnology> JobOfferTechnology { get; set; }
     }
 }
