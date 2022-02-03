@@ -1,3 +1,4 @@
+using JobsCatalog.Application.DependencyInjection;
 using JobsCatalog.Persistance.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +28,7 @@ namespace JobsCatalogApi
         {
             services.AddControllers();
             services.AddPersistance(Configuration);
+            services.AddApplication();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
