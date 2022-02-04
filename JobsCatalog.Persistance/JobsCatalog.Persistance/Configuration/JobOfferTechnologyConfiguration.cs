@@ -15,7 +15,7 @@ namespace JobsCatalog.Persistance.Configuration
             builder.HasKey(k => new { k.JobOfferId, k.TechnologyId});
             builder.HasOne(jot => jot.JobOffer)
                 .WithMany(jo => jo.JobOfferTechnology)
-                .HasForeignKey(jot => jot.JobOfferId);
+                .HasForeignKey(jo => jo.JobOfferId);
             builder.HasOne(jot => jot.Technology)
                 .WithMany(t => t.JobOfferTechnology)
                 .HasForeignKey(jot => jot.TechnologyId);

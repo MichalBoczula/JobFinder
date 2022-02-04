@@ -22,7 +22,8 @@ namespace JobsCatalog.Persistance.Configuration
                 .WithMany(pl => pl.JobOffers)
                 .HasForeignKey(jo => jo.ProgrammingLanguageId);
             builder.HasOne(jo => jo.JobDescription)
-                .WithOne(jod => jod.JobOffer);
+                .WithOne(jod => jod.JobOffer)
+                .HasForeignKey<JobDescription>(jd => jd.JobOfferId);
         }
     }
 }

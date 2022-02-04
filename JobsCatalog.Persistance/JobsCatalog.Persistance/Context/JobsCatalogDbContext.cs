@@ -34,13 +34,13 @@ namespace JobsCatalog.Persistance.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            //modelBuilder.CreateExperienceLevelsSeed();
-            //modelBuilder.CreateProgrammingLanguagesSeed();
-            //modelBuilder.CreateTechnologiesSeed();
-            //modelBuilder.CreateCompaniesSeed();
-            //modelBuilder.CreateJobDescriptionsSeed();
-            //modelBuilder.CreateJobOffersSeed();
-            //modelBuilder.CreateJobOfferTechnologySeed();
+            modelBuilder.CreateExperienceLevelsSeed();
+            modelBuilder.CreateProgrammingLanguagesSeed();
+            modelBuilder.CreateTechnologiesSeed();
+            modelBuilder.CreateCompaniesSeed();
+            modelBuilder.CreateJobOffersSeed();
+            modelBuilder.CreateJobDescriptionsSeed();
+            modelBuilder.CreateJobOfferTechnologySeed();
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())

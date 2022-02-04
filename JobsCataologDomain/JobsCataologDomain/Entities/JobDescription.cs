@@ -11,6 +11,7 @@ namespace JobsCatalog.Domain.Entities
         public string Responsibilities { get; set; }
         public string Expectation { get; set; }
         public string Offer { get; set; }
+        public int JobOfferId { get; set; }
         public JobOffer JobOffer{ get; set; }
     }
 }
