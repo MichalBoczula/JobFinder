@@ -198,6 +198,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "JobsCatalog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/JobsCatalog.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobsCatalog.Domain.dll": {}
+        }
       }
     }
   },
@@ -605,10 +615,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "JobsCatalog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../JobsCataologDomain/JobsCataologDomain/JobsCatalog.Domain.csproj",
+      "msbuildProject": "../../JobsCataologDomain/JobsCataologDomain/JobsCatalog.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "JobsCatalog.Domain >= 1.0.0",
       "MediatR >= 10.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.EntityFrameworkCore >= 5.0.13"
@@ -645,7 +661,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCataologDomain\\JobsCataologDomain\\JobsCatalog.Domain.csproj": {
+              "projectPath": "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCataologDomain\\JobsCataologDomain\\JobsCatalog.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

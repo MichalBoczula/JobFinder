@@ -6,9 +6,4 @@
     <RootNamespace>JobsCatalog.Domain</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="Entities\" />
-  </ItemGroup>
-
 </Project>

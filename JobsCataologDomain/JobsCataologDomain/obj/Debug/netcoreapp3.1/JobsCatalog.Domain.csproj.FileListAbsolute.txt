@@ -1,0 +1,10 @@
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\bin\Debug\netcoreapp3.1\JobsCatalog.Domain.deps.json
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\bin\Debug\netcoreapp3.1\JobsCatalog.Domain.dll
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\bin\Debug\netcoreapp3.1\JobsCatalog.Domain.pdb
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.csproj.AssemblyReference.cache
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.AssemblyInfoInputs.cache
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.AssemblyInfo.cs
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.csproj.CoreCompileInputs.cache
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.dll
+D:\Programowanie\Apps\FindJobsMicroServices\JobsCataologDomain\JobsCataologDomain\obj\Debug\netcoreapp3.1\JobsCatalog.Domain.pdb
