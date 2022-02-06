@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DSIs56q3WVhc3q1ccS1WI88PAl6g+uqSg/s+D3PbVLqctsp0DWAHzxM45AkRVNt6ZHQc4cydOr6lxAnibNikLA==",
+  "dgSpecHash": "dLH3O45lxStNHtrCb+crmz6WQc35AlxWCSjFqeIcC0vWaPDKGfPZJiVeGIjYH/vPBu982qt24rBsJdopP5d3SA==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCatalogApi\\JobsCatalogApi\\JobsCatalogApi.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
