@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I2Mmjap1onvQ0/GQPMif17Fwg4iB5JrcxT2whpyqaWExkrqQTpVZFyyW9xhsRLGwO+48WguAOyLRfQGb4fY9sw==",
+  "dgSpecHash": "AjlPvzkYZdStmw1z7v+2Fvw5qoT3rEBARfHfh62QDKe+0RbblQAaX+gttjurCly/wLwhcrDhoALYnHeACalO6A==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\Apps\\FindJobsMicroServices\\JobsCatalog.Test\\JobsCatalog.Test\\JobsCatalog.Test.csproj",
   "expectedPackageFiles": [
@@ -142,7 +142,6 @@
     "C:\\Users\\micha\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\micha\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
