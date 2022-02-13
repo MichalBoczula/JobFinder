@@ -20,6 +20,7 @@ namespace JobsCatalogApi
             .Enrich.WithMachineName()
             .Enrich.WithProperty("Assembly", name)
             .WriteTo.Seq(serverUrl: "http://host.docker.internal:5341/")
+            //.WriteTo.Seq(serverUrl: "http://seq_logs:5341/")
             .WriteTo.Console()
             .CreateLogger();
 
